@@ -1,0 +1,13 @@
+.Login-Form{
+    width : 50vw;
+    /* display : flex;
+    align-items : center;
+    flex-direction : column; */
+    margin-top : 7vh;
+}
+
+@media (max-width: 768px){
+    .Login-Form{
+        width : 80vw;
+    }
+}

@@ -1,0 +1,33 @@
+.main{
+    height : 93vh;
+    background-image: url('../images/backgroundimage.jpg');
+    display: flex;
+    align-items : center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.intro-text{
+    font-size: 4.5vw;
+    width : 100%;
+    color : black;
+}
+.btn-danger:hover{
+    background-color : red;
+    color : #fff;
+}
+
+@media only screen and (max-width: 786px) {
+    .intro-text{
+        font-size: 8vw;
+    }
+}  
+
+@media only screen and (max-width: 450px) {
+    .intro-text{
+        font-size: 10vw;
+    }
+  }
+
